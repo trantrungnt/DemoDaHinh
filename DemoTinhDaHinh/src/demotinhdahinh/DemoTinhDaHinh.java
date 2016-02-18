@@ -25,9 +25,13 @@ public class DemoTinhDaHinh {
         
         Animal oAnimal = new Animal();
         oAnimal.Speak();
+        
         Dog oDog = new Dog();
         oDog.methodDog();
         oDog.Speak();
+        
+        Cat oCat = new Cat();
+        oCat.Speak();
         
     }
     
