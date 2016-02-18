@@ -20,6 +20,15 @@ public class DemoTinhDaHinh {
         oCircle.Method3(3);
         oCircle.Method4(5, 6);
         oCircle.Method5("Nguyen Tran Trung");
+        
+        System.out.println("=======================");
+        
+        Animal oAnimal = new Animal();
+        oAnimal.Speak();
+        Dog oDog = new Dog();
+        oDog.methodDog();
+        oDog.Speak();
+        
     }
     
 }
